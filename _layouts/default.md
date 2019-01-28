@@ -9,13 +9,12 @@
 <header>
     <span class="logo"><a href="">site name</a></span> 
     <ul class="navigation">
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/">Some</a></li>
-        <li><a href="/">Other</a></li>
-        <li><a href="/">Stuff</a></li>
-        <li><a href="/">Here</a></li>
+        {% assign sorted = (site.pages | sort: 'order')%}
+        {% for page in sorted %}
+        {% if page.title %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </header>
 
