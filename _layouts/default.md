@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Example</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/style.css" | relative_url }}">
 </head>
 <body>
 
