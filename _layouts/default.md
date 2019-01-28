@@ -20,9 +20,7 @@
 </header>
 
 <content>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacus felis, imperdiet at enim vitae, lobortis pulvinar magna. Vivamus interdum eros quam. Aliquam a mi lorem. Donec ut turpis neque. Sed mi massa, convallis sed venenatis ac, elementum eget lectus. Nulla ante tellus, iaculis a convallis pellentesque, efficitur id lorem. Mauris eget enim justo. Nunc iaculis luctus ex, eget dictum risus. Proin eu porttitor felis. Donec dapibus, mauris in ultricies tempus, libero turpis ullamcorper lacus, ac gravida risus nulla rutrum turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin commodo convallis quam, in sagittis odio. Etiam elementum viverra luctus. Nam imperdiet placerat ipsum ut tristique. Integer in elit ex.
-
-Integer hendrerit feugiat nisl, in vehicula libero ullamcorper quis. Nam tincidunt est ut condimentum ornare. Morbi at justo pretium, consequat massa hendrerit, mollis lacus. Vestibulum euismod condimentum semper. Aenean volutpat blandit tortor, id sodales odio. Nullam eleifend diam id diam dictum pharetra. Ut ut urna id velit imperdiet rutrum. Nam tempor commodo erat vel luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Vestibulum ut urna dapibus, pretium neque ut, posuere tellus. Sed ultricies consequat velit ut auctor. Donec consectetur eu ligula aliquet interdum. Sed ipsum risus, eleifend a aliquam quis, euismod sed enim. Quisque sollicitudin, nulla pharetra interdum pretium, sapien quam porta eros, non pulvinar tortor ante et velit. Donec dapibus rutrum magna, quis suscipit sem fringilla eu.
+{{ content }}
 </content>
 
 </body>
